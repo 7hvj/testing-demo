@@ -13,7 +13,7 @@ class DemoUnitTest {
     void testEqualAndNotEqual() {
 
         DemoUtils demoUtils = new DemoUtils();
-        assertEquals(6,demoUtils.add(2,4),"2+4 Must be 6");
+        assertEquals(6,demoUtils.add(2,1),"2+4 Must be 6");
         assertNotEquals(6,demoUtils.add(1,9),"1+9 Must be 10");
 
     }
